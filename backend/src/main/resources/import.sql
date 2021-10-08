@@ -1,3 +1,8 @@
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Rafael', '123456789', 2500.00, TIMESTAMP WITH TIME ZONE '1985-11-21T20:50:07.12345Z', 0);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Maria', '65487132', 3000.00, TIMESTAMP WITH TIME ZONE '1965-01-14T20:50:07.12345Z', 0);
+INSERT INTO tb_client (name, cpf, income, birth_Date, children) VALUES ('Robson', '87945613', 9000.00, TIMESTAMP WITH TIME ZONE '1997-07-30T20:50:07.12345Z', 0);
+
+
 INSERT INTO tb_category (name, created_At) VALUES ('Livros', NOW());
 INSERT INTO tb_category (name, created_At) VALUES ('Eletrônicos', NOW());
 INSERT INTO tb_category (name, created_At) VALUES ('Computadores', NOW());
