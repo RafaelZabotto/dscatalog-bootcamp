@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4636d4a2-9a16-4708-add1-ccca819f00ed" name="Changes" comment="Pageable Adjust">
-      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/repositories/ProductRepositoryTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/services/ProductServiceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/tests/Factory.java" afterDir="false" />
+    <list default="true" id="4636d4a2-9a16-4708-add1-ccca819f00ed" name="Changes" comment="Tests with Mokito">
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/resources/ProductResourceIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/resources/ProductResourceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/services/ProductServiceIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/repositories/ProductRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/repositories/ProductRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/services/ProductServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/services/ProductServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/tests/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/tests/Factory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,35 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.ProductServiceTests">
-    <configuration name="DscatalogApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rafaelzabotto.dscatalog.DscatalogApplication" />
-      <module name="dscatalog" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rafaelzabotto.dscatalog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DscatalogApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dscatalog" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rafaelzabotto.dscatalog.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rafaelzabotto.dscatalog" />
-      <option name="MAIN_CLASS_NAME" value="com.rafaelzabotto.dscatalog.DscatalogApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ProductResourceIT">
     <configuration name="ProductRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dscatalog" />
       <extension name="coverage">
@@ -79,18 +54,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepositoryTests.deleteShouldDeleteObjectWhenIdExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductResourceIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dscatalog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rafaelzabotto.dscatalog.repositories.*" />
+          <option name="PATTERN" value="com.rafaelzabotto.dscatalog.resources.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rafaelzabotto.dscatalog.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.rafaelzabotto.dscatalog.repositories.ProductRepositoryTests" />
-      <option name="METHOD_NAME" value="deleteShouldDeleteObjectWhenIdExists" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.rafaelzabotto.dscatalog.resources" />
+      <option name="MAIN_CLASS_NAME" value="com.rafaelzabotto.dscatalog.resources.ProductResourceIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductResourceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dscatalog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rafaelzabotto.dscatalog.resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rafaelzabotto.dscatalog.resources" />
+      <option name="MAIN_CLASS_NAME" value="com.rafaelzabotto.dscatalog.resources.ProductResourceTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dscatalog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rafaelzabotto.dscatalog.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rafaelzabotto.dscatalog.services" />
+      <option name="MAIN_CLASS_NAME" value="com.rafaelzabotto.dscatalog.services.ProductServiceIT" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductResourceIT" />
+        <item itemvalue="JUnit.ProductServiceIT" />
+        <item itemvalue="JUnit.ProductResourceTests" />
         <item itemvalue="JUnit.ProductServiceTests" />
         <item itemvalue="JUnit.ProductRepositoryTests" />
-        <item itemvalue="JUnit.DscatalogApplicationTests" />
-        <item itemvalue="JUnit.ProductRepositoryTests.deleteShouldDeleteObjectWhenIdExists" />
-        <item itemvalue="Application.DscatalogApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634589745330</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tests with Mokito">
+      <created>1634782275781</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634782275781</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -243,6 +254,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pageable Adjust" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pageable Adjust" />
+    <MESSAGE value="Tests with Mokito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests with Mokito" />
   </component>
 </project>

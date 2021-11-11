@@ -5,6 +5,7 @@ import com.rafaelzabotto.dscatalog.tests.Factory;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.dao.EmptyResultDataAccessException;
@@ -17,14 +18,14 @@ public class ProductRepositoryTests {
     @Autowired
     private ProductRepository productRepository;
 
-    private long existingID;
-    private long nonExistingID;
+    private long existingId;
+    private long nonExistingId;
     private long countTotalProducts;
 
     @BeforeEach
     void setUp() throws Exception {
-        existingID = 1L;
-        nonExistingID = 1000L;
+        existingId = 1L;
+        nonExistingId = 1000L;
         countTotalProducts = 25L;
     }
 
@@ -43,8 +44,8 @@ public class ProductRepositoryTests {
     @Test
     public void deleteShouldDeleteObjectWhenIdExists() {
 
-        productRepository.deleteById(existingID);
-        Optional<Product> result = productRepository.findById(existingID);
+        productRepository.deleteById(existingId);
+        Optional<Product> result = productRepository.findById(existingId);
 
         Assertions.assertFalse(result.isPresent());
     }
@@ -53,21 +54,21 @@ public class ProductRepositoryTests {
     public void deleteShouldThrowEmptyResultNotFoundExceptionWhenIdDoesNotExists() {
 
         Assertions.assertThrows(EmptyResultDataAccessException.class, () -> {
-           productRepository.deleteById(nonExistingID);
+           productRepository.deleteById(nonExistingId);
         });
     }
 
     @Test
     public void findByIdShouldReturnOptionalNotNullWhenIdExists() {
 
-        Optional<Product> result = productRepository.findById(existingID);
+        Optional<Product> result = productRepository.findById(existingId);
         Assertions.assertTrue(result.isPresent());
     }
 
     @Test
     public void findByIdShouldReturnOptionalNullWhenIdNotExists() {
 
-        Optional<Product> result = productRepository.findById(nonExistingID);
+        Optional<Product> result = productRepository.findById(nonExistingId);
         Assertions.assertFalse(result.isPresent());
     }
 }
