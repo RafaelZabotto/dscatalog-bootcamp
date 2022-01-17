@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4636d4a2-9a16-4708-add1-ccca819f00ed" name="Changes" comment="Implementations BDS1">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/entities/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/dto/UserInsertDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/repositories/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/resources/UserResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/entities/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/import.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/resources/CategoryResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/resources/CategoryResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +59,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desafio_TDD_02/bds02/src/main/java/com/devsuperior/bds02/resources" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -55,6 +67,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rafae\Documents\bootcamp_ws\Desafio_TDD_02\bds02\src\main\java\com\devsuperior\bds02\resources" />
       <recent name="C:\Users\rafae\Documents\bootcamp_ws\Desafio_TDD_02\bds02\src\main\java\com\devsuperior\bds02\services" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rafaelzabotto.dscatalog.resources" />
+      <recent name="com.rafaelzabotto.dscatalog.repositories" />
+      <recent name="com.rafaelzabotto.dscatalog.services" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DscatalogApplication">
