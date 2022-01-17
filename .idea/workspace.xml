@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4636d4a2-9a16-4708-add1-ccca819f00ed" name="Changes" comment="Tests with Mokito">
-      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/resources/ProductResourceIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/resources/ProductResourceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/services/ProductServiceIT.java" afterDir="false" />
+    <list default="true" id="4636d4a2-9a16-4708-add1-ccca819f00ed" name="Changes" comment="Implementations BDS1">
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/repositories/ProductRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/repositories/ProductRepositoryTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/services/ProductServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/services/ProductServiceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/tests/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/rafaelzabotto/dscatalog/tests/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/entities/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/import.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/import.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +21,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1yT3jUFhTx2sfWyURNxZicCkHOu" />
   <component name="ProjectViewState">
@@ -36,91 +48,95 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desafio_TDD_02/bds02/src/main/java/com/devsuperior/bds02/resources" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.ProductResourceIT">
-    <configuration name="ProductRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dscatalog" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rafae\Documents\bootcamp_ws\Desafio_TDD_02\bds02\src\main\java\com\devsuperior\bds02\resources" />
+      <recent name="C:\Users\rafae\Documents\bootcamp_ws\Desafio_TDD_02\bds02\src\main\java\com\devsuperior\bds02\services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DscatalogApplication">
+    <configuration name="Bds02Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devsuperior.bds02.Bds02Application" />
+      <module name="bds02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rafaelzabotto.dscatalog.repositories.*" />
+          <option name="PATTERN" value="com.devsuperior.bds02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rafaelzabotto.dscatalog.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.rafaelzabotto.dscatalog.repositories.ProductRepositoryTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductResourceIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DscatalogApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rafaelzabotto.dscatalog.DscatalogApplication" />
       <module name="dscatalog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rafaelzabotto.dscatalog.resources.*" />
+          <option name="PATTERN" value="com.rafaelzabotto.dscatalog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rafaelzabotto.dscatalog.resources" />
-      <option name="MAIN_CLASS_NAME" value="com.rafaelzabotto.dscatalog.resources.ProductResourceIT" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductResourceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dscatalog" />
+    <configuration name="EventControllerIT.updateShouldReturnNotFoundWhenIdDoesNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bds02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rafaelzabotto.dscatalog.resources.*" />
+          <option name="PATTERN" value="com.devsuperior.bds02.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rafaelzabotto.dscatalog.resources" />
-      <option name="MAIN_CLASS_NAME" value="com.rafaelzabotto.dscatalog.resources.ProductResourceTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.devsuperior.bds02.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.devsuperior.bds02.controllers.EventControllerIT" />
+      <option name="METHOD_NAME" value="updateShouldReturnNotFoundWhenIdDoesNotExist" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductServiceIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dscatalog" />
+    <configuration name="EventControllerIT.updateShouldUpdateResourceWhenIdExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bds02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rafaelzabotto.dscatalog.services.*" />
+          <option name="PATTERN" value="com.devsuperior.bds02.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rafaelzabotto.dscatalog.services" />
-      <option name="MAIN_CLASS_NAME" value="com.rafaelzabotto.dscatalog.services.ProductServiceIT" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.devsuperior.bds02.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.devsuperior.bds02.controllers.EventControllerIT" />
+      <option name="METHOD_NAME" value="updateShouldUpdateResourceWhenIdExists" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dscatalog" />
+    <configuration name="com.devsuperior.bds02.controllers in bds02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bds02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rafaelzabotto.dscatalog.services.*" />
+          <option name="PATTERN" value="com.devsuperior.bds02.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.rafaelzabotto.dscatalog.services" />
-      <option name="MAIN_CLASS_NAME" value="com.rafaelzabotto.dscatalog.services.ProductServiceTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.devsuperior.bds02.controllers" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductResourceIT" />
-        <item itemvalue="JUnit.ProductServiceIT" />
-        <item itemvalue="JUnit.ProductResourceTests" />
-        <item itemvalue="JUnit.ProductServiceTests" />
-        <item itemvalue="JUnit.ProductRepositoryTests" />
+        <item itemvalue="Application.DscatalogApplication" />
+        <item itemvalue="JUnit.com.devsuperior.bds02.controllers in bds02" />
+        <item itemvalue="JUnit.EventControllerIT.updateShouldReturnNotFoundWhenIdDoesNotExist" />
+        <item itemvalue="JUnit.EventControllerIT.updateShouldUpdateResourceWhenIdExists" />
+        <item itemvalue="Application.Bds02Application" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634782275781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Integrations Tests">
+      <created>1636592308736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636592308736</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implementations BDS1">
+      <created>1641177649722</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641177649722</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -250,11 +280,12 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pageable Adjust" />
     <MESSAGE value="Tests with Mokito" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests with Mokito" />
+    <MESSAGE value="Integrations Tests" />
+    <MESSAGE value="Implementations BDS1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementations BDS1" />
   </component>
 </project>

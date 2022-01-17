@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Desafio_TDD_01/bds01/bds01.iml" filepath="$PROJECT_DIR$/../Desafio_TDD_01/bds01/bds01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Desafio_TDD_02/bds02/bds02.iml" filepath="$PROJECT_DIR$/../Desafio_TDD_02/bds02/bds02.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/dscatalog.iml" filepath="$PROJECT_DIR$/backend/dscatalog.iml" />
     </modules>
   </component>
