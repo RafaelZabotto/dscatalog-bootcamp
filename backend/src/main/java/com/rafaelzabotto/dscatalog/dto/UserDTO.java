@@ -2,6 +2,8 @@ package com.rafaelzabotto.dscatalog.dto;
 
 import com.rafaelzabotto.dscatalog.entities.User;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
@@ -10,8 +12,13 @@ public class UserDTO implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private Long id;
+
+    //Aula de Beans Validation cap 3
+    @NotBlank(message = "Campo Obrigatório")
     private String firstName;
     private String lastName;
+
+    @Email(message = "Por favor, insira um e-mail válido")
     private String email;
 
     Set<RoleDTO> roles = new HashSet<>();
