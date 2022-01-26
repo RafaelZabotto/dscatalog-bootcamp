@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4636d4a2-9a16-4708-add1-ccca819f00ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/resources/exceptions/FieldMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/resources/exceptions/ValidationError.java" afterDir="false" />
+    <list default="true" id="4636d4a2-9a16-4708-add1-ccca819f00ed" name="Changes" comment="Implementations BDS1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/resources/exceptions/ResourceExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/resources/exceptions/ResourceExceptionHandler.java" afterDir="false" />
     </list>

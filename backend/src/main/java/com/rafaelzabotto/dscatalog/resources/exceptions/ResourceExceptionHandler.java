@@ -56,5 +56,4 @@ public class ResourceExceptionHandler {
         return ResponseEntity.status(status.value()).body(error);
     }
 
-    //MethodArgumentNotValidException
 }
