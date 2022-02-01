@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4636d4a2-9a16-4708-add1-ccca819f00ed" name="Changes" comment="Implementations BDS1">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/components/JwtTokenEnhancer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
