@@ -6,22 +6,55 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bds03" />
+        <module name="bds04" />
+        <module name="bds05" />
         <module name="bds01" />
-        <module name="dscatalog" />
         <module name="bds02" />
+        <module name="uri2990" />
+        <module name="dscatalog" />
+        <module name="uri2621" />
+        <module name="uri2611" />
+        <module name="uri2602" />
+        <module name="uri2737" />
+        <module name="dslearn" />
+        <module name="uri2609" />
+        <module name="dslearn_atualizado" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bds01" target="11" />
       <module name="bds02" target="11" />
+      <module name="bds03" target="11" />
+      <module name="bds04" target="11" />
+      <module name="bds05" target="11" />
       <module name="dscatalog" target="11" />
+      <module name="dslearn" target="11" />
+      <module name="dslearn_atualizado" target="11" />
+      <module name="uri2602" target="11" />
+      <module name="uri2609" target="11" />
+      <module name="uri2611" target="11" />
+      <module name="uri2621" target="11" />
+      <module name="uri2737" target="11" />
+      <module name="uri2990" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bds01" options="-parameters" />
       <module name="bds02" options="-parameters" />
+      <module name="bds03" options="-parameters" />
+      <module name="bds04" options="-parameters" />
+      <module name="bds05" options="-parameters" />
       <module name="dscatalog" options="-parameters" />
+      <module name="dslearn" options="-parameters" />
+      <module name="dslearn_atualizado" options="-parameters" />
+      <module name="uri2602" options="-parameters" />
+      <module name="uri2609" options="-parameters" />
+      <module name="uri2611" options="-parameters" />
+      <module name="uri2621" options="-parameters" />
+      <module name="uri2737" options="-parameters" />
+      <module name="uri2990" options="-parameters" />
     </option>
   </component>
 </project>

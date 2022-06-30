@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### My Local Configurations ###
+application-dev.properties

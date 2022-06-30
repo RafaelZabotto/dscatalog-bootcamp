@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../../Desafio_ORM_Auth/bds05/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Desafio_ORM_Auth/bds05/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Desafio_TDD_01/bds1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Desafio_TDD_02/bds02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Desafio_Validacao/bds03/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Desafio_Validacao/bds04/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Desafio_Validacao/bds04/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2602/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2602/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2609/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2609/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2611/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2611/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2621/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2621/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2737/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2737/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2990/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2990/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../DSLearn/backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../DSLearn/backend/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../Desafio_TDD_01/bds01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../Desafio_TDD_02/bds02/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../Desafio_TDD_02/bds02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../bds-dslearn/backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../bds-dslearn/backend/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/src/main/resources" charset="UTF-8" />
   </component>
 </project>

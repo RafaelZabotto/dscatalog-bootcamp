@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Desafio_TDD_01/bds01/bds01.iml" filepath="$PROJECT_DIR$/../Desafio_TDD_01/bds01/bds01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Desafio_TDD_02/bds02/bds02.iml" filepath="$PROJECT_DIR$/../Desafio_TDD_02/bds02/bds02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Desafio_TDD_01/bds1/bds01.iml" filepath="$PROJECT_DIR$/../../Desafio_TDD_01/bds1/bds01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Desafio_TDD_02/bds02/bds02.iml" filepath="$PROJECT_DIR$/../../Desafio_TDD_02/bds02/bds02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Desafio_Validacao/bds03/bds03.iml" filepath="$PROJECT_DIR$/../../Desafio_Validacao/bds03/bds03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Desafio_Validacao/bds04/bds04.iml" filepath="$PROJECT_DIR$/../../Desafio_Validacao/bds04/bds04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Desafio_ORM_Auth/bds05/bds05.iml" filepath="$PROJECT_DIR$/../../Desafio_ORM_Auth/bds05/bds05.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/dscatalog.iml" filepath="$PROJECT_DIR$/backend/dscatalog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DSLearn/backend/dslearn.iml" filepath="$PROJECT_DIR$/../DSLearn/backend/dslearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bds-dslearn/backend/dslearn_atualizado.iml" filepath="$PROJECT_DIR$/../bds-dslearn/backend/dslearn_atualizado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2602/uri2602.iml" filepath="$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2602/uri2602.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2609/uri2609.iml" filepath="$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2609/uri2609.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2611/uri2611.iml" filepath="$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2611/uri2611.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2621/uri2621.iml" filepath="$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2621/uri2621.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2737/uri2737.iml" filepath="$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2737/uri2737.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2990/uri2990.iml" filepath="$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2990/uri2990.iml" />
     </modules>
   </component>
 </project>

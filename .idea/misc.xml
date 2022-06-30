@@ -6,8 +6,21 @@
         <option value="$PROJECT_DIR$/backend/pom.xml" />
         <option value="$PROJECT_DIR$/../Desafio_TDD_01/bds01/pom.xml" />
         <option value="$PROJECT_DIR$/../Desafio_TDD_02/bds02/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Desafio_TDD_01/bds1/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Desafio_TDD_02/bds02/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Desafio_Validacao/bds03/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Desafio_Validacao/bds04/pom.xml" />
+        <option value="$PROJECT_DIR$/../DSLearn/backend/pom.xml" />
+        <option value="$PROJECT_DIR$/../bds-dslearn/backend/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Desafio_ORM_Auth/bds05/pom.xml" />
+        <option value="$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2602/pom.xml" />
+        <option value="$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2609/pom.xml" />
+        <option value="$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2611/pom.xml" />
+        <option value="$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2621/pom.xml" />
+        <option value="$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2737/pom.xml" />
+        <option value="$PROJECT_DIR$/../../JPQL_Estudos_de Caso/bdsconsultas-main/uri2990/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK" />
 </project>

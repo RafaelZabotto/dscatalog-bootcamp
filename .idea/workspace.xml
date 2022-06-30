@@ -5,7 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4636d4a2-9a16-4708-add1-ccca819f00ed" name="Changes" comment="Implementations BDS1">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_29_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/rafaelzabotto/dscatalog/entities/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +64,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -34,45 +84,50 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1yT3jUFhTx2sfWyURNxZicCkHOu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desafio_TDD_02/bds02/src/main/java/com/devsuperior/bds02/resources" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/rafae/OneDrive/Documentos/Projetos/Bootcamp/Principal/dscatalog-bootcamp/backend/src/main/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "terminal"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.devsuperior.dslearnbds.repositories" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rafae\Documents\bootcamp_ws\Desafio_TDD_02\bds02\src\main\java\com\devsuperior\bds02\resources" />
-      <recent name="C:\Users\rafae\Documents\bootcamp_ws\Desafio_TDD_02\bds02\src\main\java\com\devsuperior\bds02\services" />
+      <recent name="C:\Users\rafae\OneDrive\Documentos\Projetos\Bootcamp\Principal\dscatalog-bootcamp\backend\src\main\resources" />
+      <recent name="C:\Users\rafae\OneDrive\Documentos\Projetos\Bootcamp\Desafio_ORM_Auth\bds05\src\main\java\com\devsuperior\movieflix\services\exceptions" />
+      <recent name="C:\Users\rafae\OneDrive\Documentos\Projetos\Bootcamp\Desafio_ORM_Auth\bds05\src\main\java\com\devsuperior\movieflix\resource\exceptions" />
+      <recent name="C:\Users\rafae\OneDrive\Documentos\Projetos\Bootcamp\Desafio_ORM_Auth\bds05\src\main\java\com\devsuperior\movieflix\config" />
+      <recent name="C:\Users\rafae\OneDrive\Documentos\Projetos\Bootcamp\Principal\bds-dslearn\backend\src\main\java\com\devsuperior\dslearnbds\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.rafaelzabotto.dscatalog.dto" />
-      <recent name="com.rafaelzabotto.dscatalog.services.validation" />
-      <recent name="com.rafaelzabotto.dscatalog.resources" />
-      <recent name="com.rafaelzabotto.dscatalog.repositories" />
-      <recent name="com.rafaelzabotto.dscatalog.services" />
+      <recent name="com.devsuperior.movieflix.services.exceptions" />
+      <recent name="com.devsuperior.movieflix.services" />
+      <recent name="com.devsuperior.movieflix.components" />
+      <recent name="com.devsuperior.dslearnbds.resources" />
+      <recent name="com.devsuperior.dslearnbds.services.exceptions" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DscatalogApplication">
-    <configuration name="Bds02Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devsuperior.bds02.Bds02Application" />
-      <module name="bds02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.devsuperior.bds02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DscatalogApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rafaelzabotto.dscatalog.DscatalogApplication" />
       <module name="dscatalog" />
@@ -86,48 +141,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventControllerIT.updateShouldReturnNotFoundWhenIdDoesNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bds02" />
+    <configuration name="Uri2609Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devsuperior.uri2609.Uri2609Application" />
+      <module name="uri2609" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devsuperior.bds02.controllers.*" />
+          <option name="PATTERN" value="com.devsuperior.uri2609.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.devsuperior.bds02.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.devsuperior.bds02.controllers.EventControllerIT" />
-      <option name="METHOD_NAME" value="updateShouldReturnNotFoundWhenIdDoesNotExist" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventControllerIT.updateShouldUpdateResourceWhenIdExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bds02" />
+    <configuration name="Uri2621Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devsuperior.uri2621.Uri2621Application" />
+      <module name="uri2621" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devsuperior.bds02.controllers.*" />
+          <option name="PATTERN" value="com.devsuperior.uri2621.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.devsuperior.bds02.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.devsuperior.bds02.controllers.EventControllerIT" />
-      <option name="METHOD_NAME" value="updateShouldUpdateResourceWhenIdExists" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.devsuperior.bds02.controllers in bds02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bds02" />
+    <configuration name="Uri2737Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devsuperior.uri2737.Uri2737Application" />
+      <module name="uri2737" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devsuperior.bds02.controllers.*" />
+          <option name="PATTERN" value="com.devsuperior.uri2737.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.devsuperior.bds02.controllers" />
-      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Uri2990Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.devsuperior.uri2990.Uri2990Application" />
+      <module name="uri2990" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devsuperior.uri2990.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,10 +196,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DscatalogApplication" />
-        <item itemvalue="JUnit.com.devsuperior.bds02.controllers in bds02" />
-        <item itemvalue="JUnit.EventControllerIT.updateShouldReturnNotFoundWhenIdDoesNotExist" />
-        <item itemvalue="JUnit.EventControllerIT.updateShouldUpdateResourceWhenIdExists" />
-        <item itemvalue="Application.Bds02Application" />
+        <item itemvalue="Application.Uri2990Application" />
+        <item itemvalue="Application.Uri2737Application" />
+        <item itemvalue="Application.Uri2609Application" />
+        <item itemvalue="Application.Uri2621Application" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +280,7 @@
     <option featureType="dependencySupport" implementationName="java:jakarta.activation:jakarta.activation-api" />
     <option featureType="dependencySupport" implementationName="java:org.mockito:mockito-junit-jupiter" />
     <option featureType="dependencySupport" implementationName="java:org.opentest4j:opentest4j" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
     <option featureType="dependencySupport" implementationName="java:org.objenesis:objenesis" />
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-tx" />
     <option featureType="dependencySupport" implementationName="java:org.junit.jupiter:junit-jupiter" />
@@ -289,5 +351,9 @@
     <MESSAGE value="Integrations Tests" />
     <MESSAGE value="Implementations BDS1" />
     <option name="LAST_COMMIT_MESSAGE" value="Implementations BDS1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
