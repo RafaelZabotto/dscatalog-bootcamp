@@ -36,7 +36,7 @@ public class ProductService {
         //Expressão condicional ternária para evitar a resposta de categoria = 0 e dar erro
         List<Category> categories = (categoryId == 0) ? null : Arrays.asList(categoryRepository.getById(categoryId));
 
-        //Método find customizado para busca com parametros
+        //Método find customizado para busca com parametros de categoria e nome
         Page<Product> list = productRepository.find(categories, name, pageRequest);
         return list.map(ProductDTO::new);
     }
