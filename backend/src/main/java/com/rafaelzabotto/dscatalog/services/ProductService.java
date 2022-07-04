@@ -12,11 +12,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityNotFoundException;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -29,8 +31,13 @@ public class ProductService {
     private CategoryRepository categoryRepository;
 
     @Transactional(readOnly = true)
-    public Page<ProductDTO> findAllPaged(Pageable pageable) {
-        Page<Product> list = productRepository.findAll(pageable);
+    public Page<ProductDTO> findAllPaged(Long categoryId, String name, PageRequest pageRequest) {
+
+        //Expressão condicional ternária para evitar a resposta de categoria = 0 e dar erro
+        List<Category> categories = (categoryId == 0) ? null : Arrays.asList(categoryRepository.getById(categoryId));
+
+        //Método find customizado
+        Page<Product> list = productRepository.find(categories, name, pageRequest);
         return list.map(ProductDTO::new);
     }
 

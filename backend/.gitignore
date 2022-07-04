@@ -34,3 +34,4 @@ build/
 
 ### My Local Configurations ###
 application-dev.properties
+application.properties
