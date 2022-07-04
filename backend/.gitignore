@@ -33,5 +33,5 @@ build/
 .vscode/
 
 ### My Local Configurations ###
-application-dev.properties
-application.properties
+**/main/resources/application.properties
+**/main/resources/application-dev.properties
