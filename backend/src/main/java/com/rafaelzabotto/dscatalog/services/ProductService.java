@@ -37,8 +37,9 @@ public class ProductService {
         List<Category> categories = (categoryId == 0) ? null : Arrays.asList(categoryRepository.getById(categoryId));
 
         //Método find customizado para busca com parametros de categoria e nome
-        Page<Product> list = productRepository.find(categories, name, pageRequest);
-        return list.map(ProductDTO::new);
+        Page<Product> page = productRepository.find(categories, name, pageRequest);
+        productRepository.findProductsWithCategories(page.getContent());
+        return page.map(x -> new ProductDTO(x, x.getCategories()));
     }
 
     @Transactional(readOnly = true)
