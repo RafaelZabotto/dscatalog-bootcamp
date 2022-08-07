@@ -35,3 +35,5 @@ build/
 ### My Local Configurations ###
 **/main/resources/application.properties
 **/main/resources/application-dev.properties
+**/main/resources/application-prod.properties
+Dockerfile

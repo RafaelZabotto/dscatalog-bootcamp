@@ -9,6 +9,7 @@
         <module name="bds03" />
         <module name="bds04" />
         <module name="bds05" />
+        <module name="bds06" />
         <module name="bds01" />
         <module name="bds02" />
         <module name="uri2990" />
@@ -28,6 +29,7 @@
       <module name="bds03" target="11" />
       <module name="bds04" target="11" />
       <module name="bds05" target="11" />
+      <module name="bds06" target="11" />
       <module name="dscatalog" target="11" />
       <module name="dslearn" target="11" />
       <module name="dslearn_atualizado" target="11" />
@@ -46,6 +48,7 @@
       <module name="bds03" options="-parameters" />
       <module name="bds04" options="-parameters" />
       <module name="bds05" options="-parameters" />
+      <module name="bds06" options="-parameters" />
       <module name="dscatalog" options="-parameters" />
       <module name="dslearn" options="-parameters" />
       <module name="dslearn_atualizado" options="-parameters" />

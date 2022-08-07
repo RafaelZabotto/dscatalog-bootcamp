@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4636d4a2-9a16-4708-add1-ccca819f00ed" name="Changes" comment="Fix: Postgres compatibility">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +63,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,10 +72,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rafae\OneDrive\Documentos\Projetos\Bootcamp\Principal\dscatalog-bootcamp\backend\src\main\resources" />
+      <recent name="C:\Users\rafae\OneDrive\Documentos\Projetos\Bootcamp\Desafio_Consultas_JPQL\bds06\src\main\java\com\devsuperior\movieflix" />
       <recent name="C:\Users\rafae\OneDrive\Documentos\Projetos\Bootcamp\Desafio_ORM_Auth\bds05\src\main\java\com\devsuperior\movieflix\services\exceptions" />
       <recent name="C:\Users\rafae\OneDrive\Documentos\Projetos\Bootcamp\Desafio_ORM_Auth\bds05\src\main\java\com\devsuperior\movieflix\resource\exceptions" />
       <recent name="C:\Users\rafae\OneDrive\Documentos\Projetos\Bootcamp\Desafio_ORM_Auth\bds05\src\main\java\com\devsuperior\movieflix\config" />
-      <recent name="C:\Users\rafae\OneDrive\Documentos\Projetos\Bootcamp\Principal\bds-dslearn\backend\src\main\java\com\devsuperior\dslearnbds\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.devsuperior.movieflix.services.exceptions" />
@@ -93,54 +99,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uri2609Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devsuperior.uri2609.Uri2609Application" />
-      <module name="uri2609" />
+    <configuration name="DscatalogApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dscatalog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devsuperior.uri2609.*" />
+          <option name="PATTERN" value="com.rafaelzabotto.dscatalog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.rafaelzabotto.dscatalog" />
+      <option name="MAIN_CLASS_NAME" value="com.rafaelzabotto.dscatalog.DscatalogApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uri2621Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devsuperior.uri2621.Uri2621Application" />
-      <module name="uri2621" />
+    <configuration name="ReviewResourceIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bds06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devsuperior.uri2621.*" />
+          <option name="PATTERN" value="com.devsuperior.movieflix.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.devsuperior.movieflix.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.devsuperior.movieflix.controllers.ReviewResourceIT" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uri2737Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devsuperior.uri2737.Uri2737Application" />
-      <module name="uri2737" />
+    <configuration name="com.devsuperior.movieflix.controllers in bds06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bds06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devsuperior.uri2737.*" />
+          <option name="PATTERN" value="com.devsuperior.movieflix.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.devsuperior.movieflix.controllers" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uri2990Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.devsuperior.uri2990.Uri2990Application" />
-      <module name="uri2990" />
+    <configuration name="com.rafaelzabotto.dscatalog in dscatalog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dscatalog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.devsuperior.uri2990.*" />
+          <option name="PATTERN" value="com.rafaelzabotto.dscatalog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.rafaelzabotto.dscatalog" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,10 +160,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DscatalogApplication" />
-        <item itemvalue="Application.Uri2990Application" />
-        <item itemvalue="Application.Uri2737Application" />
-        <item itemvalue="Application.Uri2609Application" />
-        <item itemvalue="Application.Uri2621Application" />
+        <item itemvalue="JUnit.com.rafaelzabotto.dscatalog in dscatalog" />
+        <item itemvalue="JUnit.DscatalogApplicationTests" />
+        <item itemvalue="JUnit.com.devsuperior.movieflix.controllers in bds06" />
+        <item itemvalue="JUnit.ReviewResourceIT" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +206,9 @@
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="startingDirectory" value="C:\Users\rafae\OneDrive\Documentos\Projetos\Bootcamp\Principal\dscatalog-bootcamp\backend" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="java:org.junit.jupiter:junit-jupiter-params" />
